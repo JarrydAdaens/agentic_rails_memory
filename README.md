@@ -41,6 +41,18 @@ This repository will grow its own durable tooling to analyze the deposited artif
 push findings back into the context and tooling rails — so future framework decisions
 become **data driven** rather than gut feel.
 
+## Notice About Learning
+
+I do not know if this is the correct approach to doing agent memory. This is my own exploration of a memory mechanism that exists across different projects. 
+
+Here's my vibe about learning this stuff: Experiment. Try it out, *be curious*.
+
+There's other, more opinionated and mature memory solutions out there. They're probably awesome. Here's one that I saw a few months ago at AIE in Melbourne:
+
+https://www.agent-memory.dev/
+
+Anway, best of luck to you and me both!
+
 ## Layout
 
 ```text
