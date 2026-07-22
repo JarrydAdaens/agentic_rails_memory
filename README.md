@@ -91,3 +91,8 @@ work done -> capture (learnings/new) -> curate (archived + golden) -> rebuild Re
 This repository holds **artifacts only**. The logic that captures, curates, ranks, and
 rebuilds them is **right-rail tooling** in `agentic_rails_tooling`. Keeping the data here
 and the logic there keeps memory vendor-agnostic, auditable, and easy to reason about.
+
+## License
+
+This repository is licensed under the [Apache License 2.0](LICENSE).
+See [NOTICE](NOTICE) for attribution details.
