@@ -1,28 +1,30 @@
 ---
 name: design
-description: Design specification for the Agentic Rails memory system (the third rail) - a durable, git-revisioned, markdown-only store of executed-work knowledge that feeds data-driven orchestration.
+description: Design specification for the Agentic Rails memory system (the records office) - a durable, git-revisioned, markdown-only store of executed-work knowledge that feeds data-driven orchestration.
 metadata:
-  version: "1.0"
+  version: "1.1"
   agentic_rails_source_version: "2.1"
   owner: "Jarryd Adaens"
   repo: "agentic-rails-memory"
 ---
 # Agentic Rails Memory - Design Specification
 
-This is the design document for **`agentic-rails-memory`**, the **third rail** of the
+This is the design document for **`agentic-rails-memory`**, the **records office** of the
 Agentic Rails framework. It defines *what* the memory system is, *why* it exists, and *how*
 it is used. It does **not** define the skills, agents, or context that produce or consume
-the artifacts — those live in the other two rails.
+the artifacts — those live in the two rails.
 
-## The Third Rail in One Paragraph
+## The Records Office in One Paragraph
 
 Agentic Rails has a left rail (**context**, from `agentic_rails_context_starter`) and a
 right rail (**tooling** — skills, rules, agent personas — from `agentic_rails_tooling`).
 Neither captures *what was learned by doing the work*, in a place that survives across
-projects. This repository is that place: a durable, git-revisioned drop zone where skills
-and agents "memorize" things by writing files. In a real railway the third rail is the
-electrified rail that supplies power; here, memory is what energizes the system to make
-**data-driven** decisions instead of relying on gut feel.
+projects. This repository is that place: the records office beside the line, a durable,
+git-revisioned drop zone where skills and agents "memorize" things by writing files. It
+holds the logbook (learnings — what happened on each run) and the service files (Resumes —
+each model's and persona's empirical track record), so the framework can make
+**data-driven** decisions instead of relying on gut feel. It is a record system, not part
+of the track.
 
 > Depositing an artifact does not mean it is clean or ready for another agent to consume.
 > It only means something of value was stored outside the project where the work happened.
@@ -113,7 +115,7 @@ agentic-rails-memory/
 |   `-- agent-resumes/             # one Resume per agent persona
 |       |-- README-AGENT-RESUMES.md
 |       `-- AGENT_RESUME_TEMPLATE.md
-|-- AGENTIC_RAILS_README.MD        # durable framework overview (all three rails)
+|-- AGENTIC_RAILS_README.MD        # durable framework overview
 `-- README.md                      # repository landing page
 ```
 
@@ -255,7 +257,7 @@ trade-offs.
 ## Navigation
 
 - [../README.md](../README.md) - repository landing page
-- [../AGENTIC_RAILS_README.MD](../AGENTIC_RAILS_README.MD) - the three-rail framework overview
+- [../AGENTIC_RAILS_README.MD](../AGENTIC_RAILS_README.MD) - the framework overview
 - [../memories/README-MEMORIES.md](../memories/README-MEMORIES.md) - overview of the memory store
 - [../memories/learnings/README-LEARNINGS.md](../memories/learnings/README-LEARNINGS.md) - the new -> archived -> golden lifecycle
 - [../memories/model-resumes/README-MODEL-RESUMES.md](../memories/model-resumes/README-MODEL-RESUMES.md) - Model Resumes

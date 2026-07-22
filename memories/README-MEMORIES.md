@@ -2,14 +2,14 @@
 name: memories-overview
 description: Overview of the memories store - the durable, git-revisioned drop zone where Agentic Rails skills and agents deposit cross-project artifacts.
 metadata:
-  version: "1.0"
+  version: "1.1"
   agentic_rails_source_version: "2.1"
   owner: "Jarryd Adaens"
   repo: "agentic-rails-memory"
 ---
 # Memories
 
-This is the artifact store of the **third rail**: the durable, git-revisioned place
+This is the artifact store of the **records office**: the durable, git-revisioned place
 where skills and agents running under Agentic Rails deposit things they want to keep
 across projects. Dropping a file here is how an agent "memorizes" something.
 

@@ -1,29 +1,31 @@
 ---
 name: agentic-rails-memory-readme
-description: Landing page for agentic-rails-memory, the third rail of Agentic Rails - a durable, git-revisioned, markdown-only store of cross-project executed-work knowledge.
+description: Landing page for agentic-rails-memory, the records office of Agentic Rails - a durable, git-revisioned, markdown-only store of cross-project executed-work knowledge.
 metadata:
-  version: "1.0"
+  version: "1.1"
   agentic_rails_source_version: "2.1"
   owner: "Jarryd Adaens"
   repo: "agentic-rails-memory"
 ---
 # Agentic Rails Memory
 
-This repository is the **third rail** of [Agentic Rails](AGENTIC_RAILS_README.MD).
+This repository is the **records office** of [Agentic Rails](AGENTIC_RAILS_README.MD).
 
 ```text
 Left rail  = context   (agentic_rails_context_starter)
-Center rail = memory     (this repository)
-Right rail = tooling    (agentic_rails_tooling)
+Right rail = tooling   (agentic_rails_tooling)
 Carriage   = the project being built
 Driver     = the human
+Records office = memory  (this repository, beside the line)
 ```
 
-In a real railway the third rail is the electrified rail that supplies power. Here,
-**memory powers data-driven decisions**. The left rail gives a project its context; the
-right rail gives agents their behaviour; this rail gives the whole framework a durable
-place to remember what actually happened — and, later, to turn that record into better
-routing decisions.
+A railway keeps records in a building beside the line: the logbook of every run, and a
+service file for every crew member. Here, **learnings are the logbook** and **Resumes are
+the service files**. The left rail gives a project its context; the right rail gives
+agents their behaviour; this repository gives the whole framework a durable place to
+remember what actually happened — and, later, to turn that record into better routing
+decisions. It is a record system, not part of the track: the train runs the same whether
+or not anyone walks in.
 
 ## What this repository is
 
@@ -50,7 +52,7 @@ agentic-rails-memory/
 |   |-- learnings/      # session-end learnings: new -> archived -> golden
 |   |-- model-resumes/  # one Resume per model
 |   `-- agent-resumes/  # one Resume per agent persona
-|-- AGENTIC_RAILS_README.MD   # the three-rail framework overview
+|-- AGENTIC_RAILS_README.MD   # the framework overview
 `-- README.md
 ```
 
@@ -82,7 +84,7 @@ work done -> capture (learnings/new) -> curate (archived + golden) -> rebuild Re
 - [`memories/README-MEMORIES.md`](memories/README-MEMORIES.md) - how the artifact store is organized.
 - [`memories/model-resumes/README-MODEL-RESUMES.md`](memories/model-resumes/README-MODEL-RESUMES.md) - Model Resumes.
 - [`memories/agent-resumes/README-AGENT-RESUMES.md`](memories/agent-resumes/README-AGENT-RESUMES.md) - Agent Resumes.
-- [`AGENTIC_RAILS_README.MD`](AGENTIC_RAILS_README.MD) - the framework that ties the three rails together.
+- [`AGENTIC_RAILS_README.MD`](AGENTIC_RAILS_README.MD) - the framework that ties the rails and the records office together.
 
 ## Scope boundary
 
